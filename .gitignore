@@ -15,9 +15,11 @@
 .DS_Store
 
 # Standard things to hide
-
+node_modules
 .parcel-cache/
 dist/
 .env
 coverage/
 .vscode/
+
+

@@ -6,6 +6,7 @@
         "build": "parcel build"
     },
     "devDependencies": {
+        "@babel/core": "^7.12.0",
         "@emotion/babel-plugin": "^11.10.5",
         "parcel": "^2.8.0",
         "process": "^0.11.10"
