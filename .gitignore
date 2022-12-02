@@ -3,6 +3,11 @@
 ## Please do not remove line 5 - thanks! 🙂 ##
 ###############################################
 *.sketch
+design
+style-guide.md
+README-template.md
+README 2.md
+
 
 # Avoid accidental XD or Figma upload if you convert the design file
 #######################################################
