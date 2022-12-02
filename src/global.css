@@ -9,6 +9,21 @@ h1 {
   font-size: 2.5rem;
   font-weight: 700;
 }
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.App-header button {
+  background-color: hsl(0, 0%, 98%);
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
   box-sizing: border-box;
@@ -21,10 +36,11 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-items: space-between;
-  background-color: #222;
+  color: #222;
   /* height: 150px; */
   padding: 20px 10px;
-  color: white;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .App-header > div {
   box-sizing: border-box;
@@ -219,4 +235,44 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+.countries > div > a,
+a {
+  width: 100%;
+  outline: 1px solid rgb(255, 255, 255) !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  display: inline-block !important;
+  border-radius: 6px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.countries > div a:hover {
+  width: 100%;
+  outline: 1px solid rgb(117, 195, 255) !important;
+  border: 1px solid rgb(124, 198, 255) !important;
+  display: inline-block !important;
+  border-radius: 6px;
+  height: 100%;
+}
+a,
+a:hover {
+  width: 180px;
+  outline: 1px solid rgb(117, 195, 255) !important;
+  border: 1px solid rgb(124, 198, 255) !important;
+  /* display: inline-block !important; */
+  border-radius: 6px;
+  /* height: 100%; */
+}
+
+a {
+  width: 180px;
+  outline: 1px solid rgb(255, 255, 255) !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  /* display: inline-block !important; */
+  border-radius: 6px;
+  /* height: 100%; */
 }
