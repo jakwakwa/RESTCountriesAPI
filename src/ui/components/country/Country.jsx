@@ -1,23 +1,26 @@
 import styled from '@emotion/styled';
+import {Link, useParams} from 'react-router-dom';
 
 function Country({country}) {
   return (
     <CountryStyles>
-      <div>
-        <img src={country.flags.png} alt={country.name.official} />
-      </div>
-      <CountryInfo>
-        <h2>{country.name.official}</h2>
-        <p>
-          {' '}
-          <strong>Population:</strong> {country.population}
-        </p>
-        <p>
-          {' '}
-          <strong>Region:</strong> {country.region}
-        </p>
-        <p> {country.capital}</p>
-      </CountryInfo>
+      <Link to={`/details/${country.ccn3}`}>
+        <div>
+          <img src={country.flags.png} alt={country.name.official} />
+        </div>
+        <CountryInfo>
+          <h2>{country.name.official}</h2>
+          <p>
+            {' '}
+            <strong>Population:</strong> {country.population}
+          </p>
+          <p>
+            {' '}
+            <strong>Region:</strong> {country.region}
+          </p>
+          <p> {country.capital}</p>
+        </CountryInfo>
+      </Link>
     </CountryStyles>
   );
 }

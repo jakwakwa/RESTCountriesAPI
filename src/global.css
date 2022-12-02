@@ -5,6 +5,10 @@ html {
   background-color: hsl(0, 0%, 98%);
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
 .App {
   text-align: center;
   box-sizing: border-box;
@@ -50,7 +54,100 @@ html {
   /* padding: 20px; */
   /* color: white; */
 }
+.DetailsContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 20px; */
+  height: 100vh;
+  /* padding: 20px; */
+  background-color: hsl(0, 0%, 98%);
+  /* color: white; */
+}
+.DetailsInfo {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  text-align: left;
+  justify-content: flex-start;
 
+  /* height: 150px; */
+  padding: 20px 10px;
+  color: black;
+}
+.Details_Inner {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.backButton {
+  box-sizing: border-box;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  border: 2px solid hsl(0, 0%, 78%);
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: pointer;
+  color: rgb(73, 73, 73);
+}
+
+.Details_Inner p {
+  padding: 0.5rem 0;
+}
+
+.Details_Inner .left {
+  width: 100%;
+}
+.Details_Inner .right {
+  width: 100%;
+}
+.Details {
+  box-sizing: border-box;
+  width: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: top;
+  justify-items: space-between;
+
+  /* height: 150px; */
+  padding: 20px 10px;
+  /* color: white; */
+}
+
+.DetailsFlag {
+  box-sizing: border-box;
+  width: 50%;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-items: space-between;
+
+  /* height: 150px; */
+  padding: 20px 10px;
+  /* color: white; */
+}
+
+.DetailsFlag > img {
+  width: 100%;
+
+  object-fit: cover;
+}
 .countries {
   display: flex;
   flex-wrap: wrap;
